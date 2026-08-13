@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-display {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Nền pattern chấm bi nhẹ nhàng, dễ thương */
+.pastel-bg {
+  background-color: #fff5f8;
+  background-image: radial-gradient(#ffd6e8 1.5px, transparent 1.5px),
+    radial-gradient(#e0d6ff 1.5px, transparent 1.5px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}

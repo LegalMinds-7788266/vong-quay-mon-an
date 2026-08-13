@@ -9,14 +9,13 @@ export default function ResultModal({ result, onClose }) {
         <Confetti />
 
         <p className="font-display text-sm font-semibold uppercase tracking-wide text-pink-400">
-          Hôm nay ăn gì? 🎡
+          Húi Ơi Ăn Gì? 🎡
         </p>
 
         <div className="my-4 animate-wiggle text-6xl">🎉</div>
 
-        <p className="font-display mb-1 text-base text-gray-500">Kết quả là...</p>
-        <h3 className="font-display mb-6 break-words text-3xl font-bold text-[#6B4E71]">
-          {result}
+        <h3 className="font-display mb-6 break-words text-2xl font-bold text-[#6B4E71]">
+          Húi ơi, hôm nay ăn {result} nha! 💕
         </h3>
 
         <button

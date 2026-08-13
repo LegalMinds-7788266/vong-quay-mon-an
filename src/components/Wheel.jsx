@@ -29,7 +29,7 @@ export default function Wheel({ items, rotation, spinning }) {
       {/* Mũi tên chỉ kết quả, cố định ở đỉnh vòng quay */}
       <div className="absolute left-1/2 -top-3 z-20 -translate-x-1/2">
         <div
-          className="h-8 w-8 rotate-180 drop-shadow-md"
+          className="h-8 w-8 drop-shadow-md"
           style={{
             clipPath: 'polygon(50% 100%, 0 0, 100% 0)',
             background: 'linear-gradient(180deg, #FF6FA0, #FF3D77)',

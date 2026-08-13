@@ -28,7 +28,7 @@ export default function FoodList({ items, onAdd, onRemove, disabled }) {
           onChange={(e) => setValue(e.target.value)}
           onKeyDown={handleKeyDown}
           disabled={disabled}
-          placeholder="Nhập món ăn, vd: Phở bò 🍜"
+          placeholder="Thêm món cho Húi..."
           className="flex-1 rounded-full border-2 border-pastel-pink bg-white px-4 py-2 text-sm outline-none placeholder:text-gray-400 focus:border-pink-400 disabled:opacity-50"
         />
         <button
